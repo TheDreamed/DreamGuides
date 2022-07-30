@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="Login.css">
+<head>
+    <body class="body1">
+    <header class="Header">
+        <div class="left">
+            <img id="logo" src="proguides.jpg" href="https://lol.garena.ph/">
+            <select id="select-game" onchange="javascript:handleSelect(this)">
+                <option value="\\wsl$\Ubuntu\home\thedream\aa-projects\capstone-project\League.html">League of Legends</option>
+                <option value="\\wsl$\Ubuntu\home\thedream\aa-projects\capstone-project\Valorant\Valorant.html" >Valorant</option>
+                <option value="\\wsl$\Ubuntu\home\thedream\aa-projects\capstone-project\Wildrift\Wildrift.html">wildrift</option>
+              </select>
+              <script type="text/javascript">
+                function handleSelect(elm)
+                {
+                   window.location = elm.value;
+                }
+              </script>
+            </div>
+
+
+
+        <div class="right">
+            <div class="URL">
+
+            <a id="a1" href="file://wsl%24/Ubuntu/home/thedream/aa-projects/capstone-project/League.html">Home</a>
+
+            <a id="a2" href="\\wsl$\Ubuntu\home\thedream\aa-projects\capstone-project\Games\Games.html">Games</a>
+            <a id="a2" href="test.html">Testimonies</a>
+            <a class="loginclass" id="a2" href="\\wsl$\Ubuntu\home\thedream\aa-projects\capstone-project\Login\Login.html">Login</a>
+        </div>
+        </div>
+
+
+    </header>
+</head>
+
+<div class="login">
+<div class = "form">
+    <h1 class="form__header">Welcome back!</h1>
+    <h2 class="form__sub-header">Need an account? <a class="signup" href="League.html">Sign Up</a></h2>
+
+    <form method="post" action="/login" class="login-form">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" value="Mark Spencer Jordan">
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" value="proguides.com"><br>
+
+        <input type="checkbox" id="remember_me" value="remember_me"/>
+         <label for="remember_me">Remember me</label>
+         <a for="forgot_pass" href="\\wsl$\Ubuntu\home\thedream\aa-projects\capstone-project\Valorant\Valorant.html">Forgot your Password?</a>
+    </form>
+
+
+
+      <button type="submit" class="submit__login">Login</button>
+
+      <div class="separator">
+        <span>OR</span>
+      </div>
+
+      <div class="login-options">
+        <a href="https://www.facebook.com/">
+            <img id="loginimg"src="fblogo.jpg">
+        </a>
+
+        <a href="https://www.google.com/">
+            <img id="loginimg"src="googlelogo.jpg">
+        </a>
+
+        <a href="https://www.apple.com/">
+            <img id="loginimg"src="apple logo.avif">
+        </a>
+
+        <a href="https://www.discord.com/">
+            <img id="loginimg"src="discordlogo.png">
+        </a>
+
+      </div>
+</div>
+</div>
+
+
+    </body>
+
+</html>
